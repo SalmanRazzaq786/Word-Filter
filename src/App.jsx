@@ -56,7 +56,7 @@ const App = () => {
         <input
           type="text"
           placeholder="Enter Length of the Word"
-          name="length"  // Change from Lengthy
+          name="length"  
           value={filters.length}
           onChange={handleFilterChange}
         />
@@ -77,28 +77,28 @@ const App = () => {
         <input
           type="text"
           placeholder="Enter Third Letter"
-          name="thirdLetter"  // Change from third
+          name="thirdLetter"  
           value={filters.thirdLetter}
           onChange={handleFilterChange}
         />
         <input
           type="text"
           placeholder="Enter Fourth Letter"
-          name="fourthLetter"  // Change from third
+          name="fourthLetter" 
           value={filters.fourthLetter}
           onChange={handleFilterChange}
         />
         <input
           type="text"
           placeholder="Enter Fifth Letter"
-          name="fifthLetter"  // Change from third
+          name="fifthLetter"  
           value={filters.fifthLetter}
           onChange={handleFilterChange}
         />
          <input
           type="text"
           placeholder="Enter Six Letter"
-          name="SixLetter"  // Change from third
+          name="SixLetter"  
           value={filters.SixLetter}
           onChange={handleFilterChange}
         />
@@ -112,7 +112,7 @@ const App = () => {
         <input
           type="text"
           placeholder="Enter Letters not included"
-          name="notIncluded"  // Change from nowords
+          name="notIncluded"  
           value={filters.notIncluded}
           onChange={handleFilterChange}
         />
